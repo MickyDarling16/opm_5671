@@ -1,0 +1,5 @@
+Model,MAE,RMSE,RMSE % Reduction vs Baseline
+Holt-Winters (Additive),3928.3,4706.6,83.7
+"SARIMAX(0,1,1)x(0,1,1,12) +Exog",4785.4,5790.8,80.0
+"SARIMA(0,1,1)x(0,1,1,12)",8274.5,9864.6,65.9
+Seasonal Naive (Benchmark),27232.1,28898.9,0.0

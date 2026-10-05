@@ -1,0 +1,42 @@
+# ==============================================================================
+# Showcase Repository .gitignore
+# Excludes local machine environments, internal course guidelines, and PPTX.
+# Tracks code, notebooks, data, models, plots, HTML presentation, and docs.
+# ==============================================================================
+
+# Virtual Environments (Local binaries)
+.venv/
+venv/
+env/
+ENV/
+
+# Course Administration & Assignment Prompts (OneDrive / Local Only)
+docs/
+
+# Presentations & Notes (Local Only)
+presentation.pptx
+*.pptx
+slide_deck.md
+*.local_backup
+
+# Personal / Local Guides (OneDrive / Local Only)
+DEPLOYMENT_GUIDE.md
+
+# Temporary Design Exploration & Preview Files (Local Only)
+theme_options.*
+THEME_OPTIONS.md
+scenario_inputs_preview.html
+
+# Python & Jupyter Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+0*.py
