@@ -251,6 +251,45 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
     
+    # Supply Chain & Modeling Dictionary
+    with st.expander("📖 Supply Chain Dictionary", expanded=False):
+        st.markdown("""
+        <div style="font-size: 0.77rem; line-height: 1.55; color: #cbd5e1; display: flex; flex-direction: column; gap: 10px;">
+            <div>
+                <strong style="color: #38bdf8;">• Drop Cycle:</strong><br>
+                Seasonal 3-month product release window (Spring, Summer, BTS, Holiday) when footwear collections hit retail shelves.
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• Planning Horizon:</strong><br>
+                The forward time period (1, 2, 3, or 6 months) covered by a single factory replenishment purchase order.
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• Lead Time:</strong><br>
+                Weeks required for overseas shoe production and container shipping to regional warehouses (4–8 weeks).
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• DC Run-Rate:</strong><br>
+                Average weekly pace of shoe pairs distributed through regional Distribution Centers (warehouses).
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• Reorder Point (ROP):</strong><br>
+                Warehouse stock threshold that triggers a new factory order: <code>(Demand / Time) × Lead Time + Safety Stock</code>.
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• Safety Stock Buffer:</strong><br>
+                Extra pairs held in reserve to absorb unexpected demand surges or shipping disruptions (typically 10–25%).
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• Supply Chain Shock:</strong><br>
+                Simulated real-world disruptions (port bottlenecks, viral athlete collabs, winter storms, holiday rushes).
+            </div>
+            <div>
+                <strong style="color: #38bdf8;">• SARIMAX + Exog:</strong><br>
+                Seasonal time-series forecasting model enhanced with external macroeconomic drivers (CPI Inflation & Consumer Sentiment).
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+    
     st.divider()
     st.caption("OPIM-5671 Project #1 — Team 5")
 
