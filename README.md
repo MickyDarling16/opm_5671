@@ -138,10 +138,10 @@ The prototype (`app.py`) bridges statistical modeling into operational retail di
 ---
 
 ## 👥 Authors & Team Contributions (Team 5)
-* **Member 1:** Data Engineering & EDA (FRED API Ingestion Pipeline, Resampling)
-* **Member 2:** Advanced Time Series Modeling (SARIMAX with Exogenous Drivers)
-* **Member 3:** Baseline Modeling & Model Diagnostics (Holt-Winters, Ljung-Box Test)
-* **Member 4:** Interactive Prototype Engineering (Streamlit UI, Scenario Forecasting)
-* **Member 5:** Business Logic Framing & Presentation Design (ROP Optimization)
+* **Patricia Tavarez:** Data Engineering & EDA (FRED API Ingestion Pipeline, Resampling)
+* **Rahid Ahmed:** Advanced Time Series Modeling (SARIMAX with Exogenous Drivers)
+* **Rishika Sai Macharla:** Baseline Modeling & Model Diagnostics (Holt-Winters, Ljung-Box Test)
+* **Michael Adu:** Interactive Prototype Engineering (Streamlit UI, Scenario Forecasting)
+* **Noah Reed:** Business Logic Framing & Presentation Design (ROP Optimization)
 
 *Course: OPIM-5671 Advanced Predictive Analytics — University of Connecticut*
